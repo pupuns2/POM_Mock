@@ -1,0 +1,37 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Consumer Site - Functional test suite" verbose="10">
+
+	<parameter name="browser" value="Chrome" />
+	<parameter name="report" value="Y:\\Jenkins\DailyRuns\" />
+	<parameter name="environment" value="REM" />
+
+		
+	<test name="Consumer Portal Guest Related testcases">
+
+
+		<parameter name="suite_name" value="Consumer Site - Guest" />
+		<parameter name="username" value="" />
+		<parameter name="password" value="" />
+
+
+		<classes>
+			<class name="com.equator.tests.testcases.ConsumerSite_Guest" />
+
+		</classes>
+
+	</test>
+	
+	<test name="Consumer Portal Registerd User testcases">
+		
+		<parameter name="suite_name" value="Consumer Site - Registered User" />
+		<parameter name="username" value="SeleniumConsumerSiteUser@gmail.com" />
+		<parameter name="password" value="Password1" />
+		
+		<classes>
+			<class name="com.equator.tests.testcases.ConsumerSite_RegisteredUser" />
+		</classes>
+	</test>
+	
+	
+
+</suite>

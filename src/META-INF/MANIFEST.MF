@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Main-Class: com.equator.runners.TestRunner
+Specification-Title: NIT - Functional
+Specification-Vendor: Equator
+Specification-Version: 10.07.05.28
+Created-By: Sanjay Jain
+
